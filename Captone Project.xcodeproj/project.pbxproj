@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF704491A0FBFA200D9A6B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF704481A0FBFA200D9A6B5 /* AppDelegate.swift */; };
+		1AF7044B1A0FBFA200D9A6B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7044A1A0FBFA200D9A6B5 /* ViewController.swift */; };
+		1AF7044E1A0FBFA200D9A6B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7044C1A0FBFA200D9A6B5 /* Main.storyboard */; };
+		1AF704501A0FBFA300D9A6B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF7044F1A0FBFA300D9A6B5 /* Images.xcassets */; };
+		1AF704531A0FBFA300D9A6B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AF704511A0FBFA300D9A6B5 /* LaunchScreen.xib */; };
+		1AF7045F1A0FBFA300D9A6B5 /* Captone_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7045E1A0FBFA300D9A6B5 /* Captone_ProjectTests.swift */; };
+		1AF7047D1A0FC01100D9A6B5 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7046B1A0FC01100D9A6B5 /* AFHTTPRequestOperation.m */; };
+		1AF7047E1A0FC01100D9A6B5 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7046D1A0FC01100D9A6B5 /* AFHTTPRequestOperationManager.m */; };
+		1AF7047F1A0FC01100D9A6B5 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7046F1A0FC01100D9A6B5 /* AFHTTPSessionManager.m */; };
+		1AF704801A0FC01100D9A6B5 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF704721A0FC01100D9A6B5 /* AFNetworkReachabilityManager.m */; };
+		1AF704811A0FC01100D9A6B5 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF704741A0FC01100D9A6B5 /* AFSecurityPolicy.m */; };
+		1AF704821A0FC01100D9A6B5 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF704761A0FC01100D9A6B5 /* AFURLConnectionOperation.m */; };
+		1AF704831A0FC01100D9A6B5 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF704781A0FC01100D9A6B5 /* AFURLRequestSerialization.m */; };
+		1AF704841A0FC01100D9A6B5 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7047A1A0FC01100D9A6B5 /* AFURLResponseSerialization.m */; };
+		1AF704851A0FC01100D9A6B5 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7047C1A0FC01100D9A6B5 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AF704591A0FBFA300D9A6B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF7043B1A0FBFA200D9A6B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF704421A0FBFA200D9A6B5;
+			remoteInfo = "Captone Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF704431A0FBFA200D9A6B5 /* Captone Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Captone Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF704471A0FBFA200D9A6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF704481A0FBFA200D9A6B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AF7044A1A0FBFA200D9A6B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AF7044D1A0FBFA200D9A6B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AF7044F1A0FBFA300D9A6B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AF704521A0FBFA300D9A6B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AF704581A0FBFA300D9A6B5 /* Captone ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Captone ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF7045D1A0FBFA300D9A6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF7045E1A0FBFA300D9A6B5 /* Captone_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captone_ProjectTests.swift; sourceTree = "<group>"; };
+		1AF704681A0FBFD300D9A6B5 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		1AF7046A1A0FC01100D9A6B5 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		1AF7046B1A0FC01100D9A6B5 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		1AF7046C1A0FC01100D9A6B5 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		1AF7046D1A0FC01100D9A6B5 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		1AF7046E1A0FC01100D9A6B5 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		1AF7046F1A0FC01100D9A6B5 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		1AF704701A0FC01100D9A6B5 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		1AF704711A0FC01100D9A6B5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		1AF704721A0FC01100D9A6B5 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		1AF704731A0FC01100D9A6B5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		1AF704741A0FC01100D9A6B5 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		1AF704751A0FC01100D9A6B5 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		1AF704761A0FC01100D9A6B5 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		1AF704771A0FC01100D9A6B5 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		1AF704781A0FC01100D9A6B5 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		1AF704791A0FC01100D9A6B5 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		1AF7047A1A0FC01100D9A6B5 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		1AF7047B1A0FC01100D9A6B5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		1AF7047C1A0FC01100D9A6B5 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AF704401A0FBFA200D9A6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF704551A0FBFA300D9A6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF7043A1A0FBFA200D9A6B5 = {
+			isa = PBXGroup;
+			children = (
+				1AF704691A0FC01100D9A6B5 /* AFNetworking */,
+				1AF704681A0FBFD300D9A6B5 /* bridge.h */,
+				1AF704451A0FBFA200D9A6B5 /* Captone Project */,
+				1AF7045B1A0FBFA300D9A6B5 /* Captone ProjectTests */,
+				1AF704441A0FBFA200D9A6B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF704441A0FBFA200D9A6B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AF704431A0FBFA200D9A6B5 /* Captone Project.app */,
+				1AF704581A0FBFA300D9A6B5 /* Captone ProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AF704451A0FBFA200D9A6B5 /* Captone Project */ = {
+			isa = PBXGroup;
+			children = (
+				1AF704481A0FBFA200D9A6B5 /* AppDelegate.swift */,
+				1AF7044A1A0FBFA200D9A6B5 /* ViewController.swift */,
+				1AF7044C1A0FBFA200D9A6B5 /* Main.storyboard */,
+				1AF7044F1A0FBFA300D9A6B5 /* Images.xcassets */,
+				1AF704511A0FBFA300D9A6B5 /* LaunchScreen.xib */,
+				1AF704461A0FBFA200D9A6B5 /* Supporting Files */,
+			);
+			path = "Captone Project";
+			sourceTree = "<group>";
+		};
+		1AF704461A0FBFA200D9A6B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF704471A0FBFA200D9A6B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF7045B1A0FBFA300D9A6B5 /* Captone ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF7045E1A0FBFA300D9A6B5 /* Captone_ProjectTests.swift */,
+				1AF7045C1A0FBFA300D9A6B5 /* Supporting Files */,
+			);
+			path = "Captone ProjectTests";
+			sourceTree = "<group>";
+		};
+		1AF7045C1A0FBFA300D9A6B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF7045D1A0FBFA300D9A6B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF704691A0FC01100D9A6B5 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1AF7046A1A0FC01100D9A6B5 /* AFHTTPRequestOperation.h */,
+				1AF7046B1A0FC01100D9A6B5 /* AFHTTPRequestOperation.m */,
+				1AF7046C1A0FC01100D9A6B5 /* AFHTTPRequestOperationManager.h */,
+				1AF7046D1A0FC01100D9A6B5 /* AFHTTPRequestOperationManager.m */,
+				1AF7046E1A0FC01100D9A6B5 /* AFHTTPSessionManager.h */,
+				1AF7046F1A0FC01100D9A6B5 /* AFHTTPSessionManager.m */,
+				1AF704701A0FC01100D9A6B5 /* AFNetworking.h */,
+				1AF704711A0FC01100D9A6B5 /* AFNetworkReachabilityManager.h */,
+				1AF704721A0FC01100D9A6B5 /* AFNetworkReachabilityManager.m */,
+				1AF704731A0FC01100D9A6B5 /* AFSecurityPolicy.h */,
+				1AF704741A0FC01100D9A6B5 /* AFSecurityPolicy.m */,
+				1AF704751A0FC01100D9A6B5 /* AFURLConnectionOperation.h */,
+				1AF704761A0FC01100D9A6B5 /* AFURLConnectionOperation.m */,
+				1AF704771A0FC01100D9A6B5 /* AFURLRequestSerialization.h */,
+				1AF704781A0FC01100D9A6B5 /* AFURLRequestSerialization.m */,
+				1AF704791A0FC01100D9A6B5 /* AFURLResponseSerialization.h */,
+				1AF7047A1A0FC01100D9A6B5 /* AFURLResponseSerialization.m */,
+				1AF7047B1A0FC01100D9A6B5 /* AFURLSessionManager.h */,
+				1AF7047C1A0FC01100D9A6B5 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AF704421A0FBFA200D9A6B5 /* Captone Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF704621A0FBFA300D9A6B5 /* Build configuration list for PBXNativeTarget "Captone Project" */;
+			buildPhases = (
+				1AF7043F1A0FBFA200D9A6B5 /* Sources */,
+				1AF704401A0FBFA200D9A6B5 /* Frameworks */,
+				1AF704411A0FBFA200D9A6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Captone Project";
+			productName = "Captone Project";
+			productReference = 1AF704431A0FBFA200D9A6B5 /* Captone Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AF704571A0FBFA300D9A6B5 /* Captone ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF704651A0FBFA300D9A6B5 /* Build configuration list for PBXNativeTarget "Captone ProjectTests" */;
+			buildPhases = (
+				1AF704541A0FBFA300D9A6B5 /* Sources */,
+				1AF704551A0FBFA300D9A6B5 /* Frameworks */,
+				1AF704561A0FBFA300D9A6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF7045A1A0FBFA300D9A6B5 /* PBXTargetDependency */,
+			);
+			name = "Captone ProjectTests";
+			productName = "Captone ProjectTests";
+			productReference = 1AF704581A0FBFA300D9A6B5 /* Captone ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AF7043B1A0FBFA200D9A6B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Michael Sevy";
+				TargetAttributes = {
+					1AF704421A0FBFA200D9A6B5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1AF704571A0FBFA300D9A6B5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1AF704421A0FBFA200D9A6B5;
+					};
+				};
+			};
+			buildConfigurationList = 1AF7043E1A0FBFA200D9A6B5 /* Build configuration list for PBXProject "Captone Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AF7043A1A0FBFA200D9A6B5;
+			productRefGroup = 1AF704441A0FBFA200D9A6B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF704421A0FBFA200D9A6B5 /* Captone Project */,
+				1AF704571A0FBFA300D9A6B5 /* Captone ProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AF704411A0FBFA200D9A6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF7044E1A0FBFA200D9A6B5 /* Main.storyboard in Resources */,
+				1AF704531A0FBFA300D9A6B5 /* LaunchScreen.xib in Resources */,
+				1AF704501A0FBFA300D9A6B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF704561A0FBFA300D9A6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF7043F1A0FBFA200D9A6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF704831A0FC01100D9A6B5 /* AFURLRequestSerialization.m in Sources */,
+				1AF704821A0FC01100D9A6B5 /* AFURLConnectionOperation.m in Sources */,
+				1AF704811A0FC01100D9A6B5 /* AFSecurityPolicy.m in Sources */,
+				1AF7047D1A0FC01100D9A6B5 /* AFHTTPRequestOperation.m in Sources */,
+				1AF704851A0FC01100D9A6B5 /* AFURLSessionManager.m in Sources */,
+				1AF704841A0FC01100D9A6B5 /* AFURLResponseSerialization.m in Sources */,
+				1AF7044B1A0FBFA200D9A6B5 /* ViewController.swift in Sources */,
+				1AF7047F1A0FC01100D9A6B5 /* AFHTTPSessionManager.m in Sources */,
+				1AF7047E1A0FC01100D9A6B5 /* AFHTTPRequestOperationManager.m in Sources */,
+				1AF704801A0FC01100D9A6B5 /* AFNetworkReachabilityManager.m in Sources */,
+				1AF704491A0FBFA200D9A6B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF704541A0FBFA300D9A6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF7045F1A0FBFA300D9A6B5 /* Captone_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AF7045A1A0FBFA300D9A6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AF704421A0FBFA200D9A6B5 /* Captone Project */;
+			targetProxy = 1AF704591A0FBFA300D9A6B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AF7044C1A0FBFA200D9A6B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF7044D1A0FBFA200D9A6B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AF704511A0FBFA300D9A6B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF704521A0FBFA300D9A6B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AF704601A0FBFA300D9A6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AF704611A0FBFA300D9A6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AF704631A0FBFA300D9A6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "Captone Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+			};
+			name = Debug;
+		};
+		1AF704641A0FBFA300D9A6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "Captone Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+			};
+			name = Release;
+		};
+		1AF704661A0FBFA300D9A6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Captone ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Captone Project.app/Captone Project";
+			};
+			name = Debug;
+		};
+		1AF704671A0FBFA300D9A6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Captone ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Captone Project.app/Captone Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF7043E1A0FBFA200D9A6B5 /* Build configuration list for PBXProject "Captone Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF704601A0FBFA300D9A6B5 /* Debug */,
+				1AF704611A0FBFA300D9A6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF704621A0FBFA300D9A6B5 /* Build configuration list for PBXNativeTarget "Captone Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF704631A0FBFA300D9A6B5 /* Debug */,
+				1AF704641A0FBFA300D9A6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AF704651A0FBFA300D9A6B5 /* Build configuration list for PBXNativeTarget "Captone ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF704661A0FBFA300D9A6B5 /* Debug */,
+				1AF704671A0FBFA300D9A6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AF7043B1A0FBFA200D9A6B5 /* Project object */;
+}

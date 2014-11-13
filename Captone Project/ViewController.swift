@@ -59,6 +59,10 @@ class ViewController: UIViewController {
     
 }
 
+// if let myName = responseObject.valueForKey("name") as? String {
+//self.username.text = myName;
+//}
+
 //Instagram JSON: https://api.instagram.com/v1/tags/"timberlake"/media/recent?client_id=952d6ff443ce448d90d3bf12d819b88b
 
 //Heroku JSON: http://intutvp.herokuapp.com/intutv/api/v1.0/search/twitter/foofighters
